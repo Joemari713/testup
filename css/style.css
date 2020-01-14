@@ -1,4 +1,63 @@
+/*------------------------------------------------------------------
+ [Master Stylesheet]
 
+  Project:	RoyalUI Admin
+  Version:	1.0.0
+-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------
+  ===== Table of Contents =====
+
+  * Bootstrap functions
+  * Bootstrap variables
+  * Template variables
+  * SCSS Compass Functions
+  * Boostrap Main SCSS
+  * Template mixins
+    + Animation Mixins
+    + Button Mixins
+    + Miscellaneous Mixins
+    + Cards Mixins
+    + Color Functions Mixins
+    + Badge Mixins
+    + Blockquote Mixins
+    
+  * Core Styles
+    + Reset Styles
+    + Fonts
+    + Functions
+    + Backgrounds
+    + Typography
+    + Miscellaneous
+    + Footer
+    + Utilities
+    + Demo styles
+  * Components
+    + Buttons
+    + Badges
+    + Bootstrap Progress
+    + Cards
+    + Checkboxes and Radios
+    + Dropdowns
+    + Forms
+    + Icons
+    + Lists
+    + Tables
+    + To-do List
+  * Landing screens
+    + Auth
+  * Layout
+    + Vertical wrapper
+    + Sidebar
+    + Navbar
+    + Layouts
+
+-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/* === Import Bootstrap functions and variables === */
+/*-------------------------------------------------------------------*/
+/* === Import template variables === */
+/*-------------------------------------------------------------------*/
+/* === SCSS Compass Functions === */
 @-moz-keyframes flash {
   0% {
     opacity: 1;
@@ -12472,7 +12531,13 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand {
- 
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
